@@ -1,4 +1,88 @@
-body{
-    background-color: burlywood;
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #1e1e2f; /* Dark background */
+    font-family: 'Poppins', sans-serif;
 }
 
+.card {
+    background: #2c2c3e; /* Darker card */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    color: #ffcc00; /* Gold Title */
+}
+
+#taskCounter {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+input {
+    background: #3a3a4f;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input::placeholder {
+    color: #b0b0c0;
+}
+
+.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+}
+
+.btn-danger {
+    background-color: #ff4444;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000;
+}
+
+.list-group-item {
+    background: #3a3a4f;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #47475a;
+}
+
+.btn-sm {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success {
+    background-color: #66bb6a;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #57a45b;
+}
